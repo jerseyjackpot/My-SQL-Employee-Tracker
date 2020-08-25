@@ -46,7 +46,7 @@ A command-line application that allows the user to:
 
 ### Installation 
 
-install NODE, Inquirer, and MySQL
+Clone this github repo, install NODE, Inquirer, and MySQL
 
 ### Usage 
 
