@@ -143,8 +143,8 @@ var connection = mysql.createConnection({
     const query = "SELECT role_id, role_title FROM roles";
     connection.query(query, function (err, res) {
       if (err) throw err;
-      console.table(res, ["role_id", "role_title"]);
-      console.log("");
+        console.table(res);
+      console.log("\n");
       start();
     });
   }
@@ -250,8 +250,7 @@ var connection = mysql.createConnection({
               message: "Choose a role for the new employee",
               choices: array
             }).then(function (answer1) {
-              var query = "SELECT employee.employee_id as value, CONCAT(employee.first_name, ' ', employee.last_name) as name " +
-                "FROM employee INNER JOIN roles ON employee.role_id = roles.role_id WHERE role.manager = 1";
+              var query = "SELECT employee.employee_id as value, CONCAT(employee.first_name, ' ', employee.last_name) as name FROM employee INNER JOIN roles ON employee.role_id = roles.role_id WHERE roles.manager = 1;";
               connection.query(query, function (err, res) {
                 if (err) throw err;
                 let array2 = JSON.parse(JSON.stringify(res));
