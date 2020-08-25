@@ -42,7 +42,7 @@ A command-line application that allows the user to:
 
   * Delete departments, roles, and employees
 
-  * View the total utilized budget of a department -- ie the combined salaries of all employees in that department
+  * TO BE ADDED in a future version: View the total utilized budget of a department -- ie the combined salaries of all employees in that department
 
 ### Installation 
 
