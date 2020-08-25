@@ -11,25 +11,31 @@ INSERT INTO Employee_schema.department (department_id, name)
 VALUES (4, "Engineering");
 
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (1, "Jr Developer", 40000, 4, 1);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (2, "Senior Developer", 80000, 4, 0);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (3, "Finance Manager", 100000, 1, 1);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (4, "Accountant", 60000, 1, 0);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
+VALUES (5, "Admin", 50000, 1, 0);
+
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
+VALUES (6, "Paralegal", 65000, 2, 0);
+
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (7, "Lawyer", 80000, 2, 0);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (8, "Marketing Lead", 85000, 3, 1);
 
-INSERT INTO Employee_schema.role (role_id, role_title, role_salary, department_id, manager)
+INSERT INTO Employee_schema.roles (role_id, role_title, role_salary, department_id, manager)
 VALUES (9, "Marketing Associate", 65000, 3, 0);
 
 
