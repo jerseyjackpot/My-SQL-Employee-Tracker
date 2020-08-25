@@ -11,6 +11,9 @@ A solution for managing a company's employees using node, inquirer, and MySQL
 
 ![Database Schema](Assets/schema.png)
 
+## Demo Gif
+
+![Demo GIF](https://github.com/jerseyjackpot/My-SQL-Employee-Tracker/blob/master/Assets/Employee%20Tracker%20Demo.gif)
 
 ## Table of Contents 
 
